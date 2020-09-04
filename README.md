@@ -4,7 +4,7 @@ We all value good product docs, but writing them is another story.
 The pressure to launch the product does not leave you time for taking care of documentation.
 And when there is time, you don’t feel productive since you know they might become outdated as soon as there is a new version of the software.
 
-In this workshop, I share with you a workflow and tools to keep your documentation projects current while enjoyable to maintain.
+In this workshop, we will review a docs-as-code workflow and tools you can use to keep your documentation projects current while enjoyable to maintain.
 
 ## Requirements
 
