@@ -1,0 +1,18 @@
+name: Marp
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build & Deploy to GitHub Pages
+      env: 
+        MARP_ARGS: "slides.md -o index.html"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PUBLISH_TO_BRANCH: gh-pages
+      uses: ralexander-phi/marp-action@master
