@@ -42,7 +42,7 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 > Documentation is the entry point of technical audiences to the product.
 
 - Saves others time and energy.
-- Helps you remember how your code works.
+- Helps you remember how code works.
 - Increases the product adoption.
 
 ---
