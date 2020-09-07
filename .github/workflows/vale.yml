@@ -1,5 +1,5 @@
 name: Vale
-on: push
+on: pull_request
 
 jobs:
   lint:
@@ -25,7 +25,7 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@v1.3.0
       with:
-        files: '${{ steps.file_changes.outputs.files_modified }}'
+        files: '${{ steps.file_changes.outputs.files }}'
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
