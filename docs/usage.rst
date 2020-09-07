@@ -2,7 +2,7 @@
 Usage
 #####
 
-Call the next function to order a hawaiian pizza:
+Call the next function to order a pizza:
 
 .. literalinclude:: ../src/OrderPizza.py
     :language: 
