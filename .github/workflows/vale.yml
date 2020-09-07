@@ -1,5 +1,5 @@
 name: Vale
-on: push
+on: pull_request
 
 jobs:
   lint:
@@ -7,17 +7,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
     
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install Sphinx
-
     - name: File Changes
       id: file_changes
       uses: trilom/file-changes-action@v1.2.3
@@ -25,7 +15,7 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@v1.3.0
       with:
-        files: '${{ steps.file_changes.outputs.files_modified }}'
+        files: '${{ steps.file_changes.outputs.files }}'
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
