@@ -1,9 +1,8 @@
-############
 Installation
-############
+============
 
 Requirements
-============
+------------
 
 - `Python <https://docs.python.org>`_
 - PIP
