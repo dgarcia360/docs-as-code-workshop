@@ -219,7 +219,7 @@ https://docs.errata.ai/vale/install
 
 -  Enforce the style guide.
 - Guide on how to write well.
-- Integrates well with CI / CD.
+- Integrates with CI / CD.
 
 ---
 
