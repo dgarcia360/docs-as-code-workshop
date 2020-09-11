@@ -67,7 +67,7 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 <!-- class:  -->
 
-# Intrdoucing Docs-As-Code
+# Introducing Docs-As-Code
 
  > Write docs with the same tools and workflows used to code.
 
