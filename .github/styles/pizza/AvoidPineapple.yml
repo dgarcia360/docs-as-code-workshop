@@ -1,7 +1,0 @@
-extends: existence
-message: "Checks if there are pineapple pizza occurences."
-ignorecase: true
-level: warning
-tokens:
-  - hawaiian pizza
-  - 🍍🍕
