@@ -63,11 +63,6 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 # Docs efforts are not usually scoped
 
-
----
-
-![bg center:60% 60%](images/meme.jpg)
-
 ---
 
 <!-- class:  -->
@@ -150,11 +145,11 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 # restructuredText cheatsheet
 
-https://docutils.sourceforge.io/docs/ref/rst/restructuredtext
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
--  ``**bold**``, ``*italic*, `` `link <http://google.com>`_``
+-  ``**bold**``, ``*italic*``, \`link <http://google.com>`_
 
-- Headings:
+- Headings adornment: ``= - ` : . ' " ~ ^ _ * + #``
 
 ```
 Title
