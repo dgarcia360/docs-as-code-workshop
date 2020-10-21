@@ -12,7 +12,7 @@ Requirements
 Installation
 ------------
 
-To install the *Pizza SDK*, run the following command in your terminal:
+To install the *hawaiian pizza SDK*, run the following command in your terminal:
 
 .. code:: 
 
