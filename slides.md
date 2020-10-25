@@ -7,7 +7,7 @@ marp: true
 backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # **Practical Docs-as-Code**
 
@@ -15,7 +15,7 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 ![bg right:40% 80%](https://apidocumentation.xyz/images/hero.jpg)
 
@@ -27,15 +27,11 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 ---
 
-<!-- paginate: true -->
-
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # Good documentation ❤️
 
 ---
-
-<!-- class:  -->
 
 # Good documentation ❤️
 
@@ -47,25 +43,23 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # Writing documentation 🤨
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # Docs become quickly outdated
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # Docs efforts are not usually scoped
 
 ---
-
-<!-- class:  -->
 
 # Introducing Docs-As-Code
 
@@ -79,8 +73,6 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 - CI / CD
 
 ---
-
-<!-- class:  -->
 
 # Why?
 
@@ -107,15 +99,11 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 ---
 
-<!-- class: lead -->
-
+<!-- _class: lead -->
 
 # 1. Writing documentation
 
 ---
-
-<!-- class:   -->
-
 
 # Where docs should live?
 
@@ -147,7 +135,7 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
--  ``**bold**``, ``*italic*``, \`link <http://google.com>`_
+-  ``**bold**``, ``*italic*``, `` `link <http://google.com>`_``
 
 - Headings adornment: ``= - ` : . ' " ~ ^ _ * + #``
 
@@ -158,18 +146,14 @@ Title
 subtitle
 --------
 ```
-
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 
 # 2. Collaboration with Git
 
 ---
-
-<!-- class:  -->
-
 
 ![bg 90%](images/gh-flow.png)
 
@@ -183,14 +167,12 @@ subtitle
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 
 # 3. Testing with Vale
 
 ---
-
-<!-- class:  -->
 
 # Style Guide
  
@@ -253,14 +235,12 @@ tokens:
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 
 # 4. Publishing with Sphinx and ReadTheDocs
 
 ---
-
-<!-- class:   -->
 
 # Sphinx
 
