@@ -21,9 +21,9 @@ Using Sphinx, GitHub, Vale, and ReadTheDocs.
 
 ####   🇪🇸 **David Garcia** (@dgarcia360)
 
-🥑 **Freelance Developer Advocate**
+🥑 **Tech Docs Consultant**
 
-🧑‍💻 APIdocumentation.xyz
+🧑‍💻 davidgarcia.dev
 
 ---
 
